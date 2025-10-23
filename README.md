@@ -5,7 +5,9 @@
 
 [[Overview](https://ktran.de/papers/tmcl/)] [[arXiV](https://arxiv.org/abs/2505.14125)] 
 
-<img style="display: block; margin-left: auto; margin-right: auto; width: 80%;" src="assets/figure.svg" alt="TMCL" width="600"/><br>
+<p align="center">
+    <img src="assets/figure.svg" alt="TMCL" width="600"/>
+</p>
 This is the PyTorch implementation of the task-modulated contrastive learning (TMCL) algorithm.
 TMCL provides a novel approach to sparsely supervised continual learning by 
 continually integrating supervised top-down modulations with contrastive learning.
