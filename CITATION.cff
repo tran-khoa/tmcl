@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "Cite our paper as below."
+
+type: software
+title: "Offical Code for 'Contrastive Consolidation of Top-Down Modulations Achieves Sparsely Supervised Continual Learning' (NeurIPS 2025)"
+authors:
+- family-names: "Tran"
+  given-names: "Viet Anh Khoa"
+  orcid: "https://orcid.org/0000-0001-9704-2669"
+license: "MIT"
+version: 1.0.0
+doi: "10.48550/arXiv.2505.14125"
+date-released: 2025-10-23
+url: "https://ktran.de/papers/tmcl/"
+preferred-citation:
+  type: conference-paper
+  title: "Contrastive Consolidation of Top-Down Modulations Achieves Sparsely Supervised Continual Learning"
+  year: 2025
+  authors:
+  - family-names: "Tran"
+    given-names: "Viet Anh Khoa"
+    orcid: "https://orcid.org/0000-0001-9704-2669"
+  - family-names: "Neftci"
+    given-names: "Emre O."
+    orcid: "https://orcid.org/0000-0002-0332-3273"
+  - family-names: "Wybo"
+    given-names: "Willem A. M."
+    orcid: "https://orcid.org/0000-0003-1385-4980"
+  conference:
+      name: "Advances in Neural Information Processing Systems"
+      acronym: "NeurIPS"
+      location: "San Diego, CA, United States of America"
+      date-start: 2025-12-02
+      date-end: 2025-12-07

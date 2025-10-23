@@ -1,0 +1,50 @@
+[project]
+name = 'tmcl'
+requires-python = ">=3.12"
+description = "Official implementation of 'Contrastive Consolidation of Top-Down Modulations Achieves Sparsely Supervised Continual Learning' (NeurIPS 2025)."
+version = "1.0.0"
+authors = [
+    { name = "Viet Anh Khoa Tran", email = "mail@ktran.de" },
+    { name = "Emre O. Neftci", email = "e.neftci@fz-juelich.de" },
+    { name = "Willem A. M. Wybo", email = "w.wybo@fz-juelich.de" },
+]
+license = "MIT"
+license-files = ["LICENSE"]
+readme = "README.md"
+
+[project.urls]
+Homepage = "https://ktran.de/papers/tmcl"
+Repository = "https://github.com/tran-khoa/tmcl"
+
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.format]
+quote-style = "single"
+indent-style = "space"
+docstring-code-format = true
+
+[tool.setuptools]
+packages = ["tmcl", "represent", "slurm"]
+
+[tool.ruff.lint]
+select = [
+    # pycodestyle
+    "E",
+    # Pyflakes
+    "F",
+    # pyupgrade
+    "UP",
+    # flake8-bugbear
+    "B",
+    # flake8-simplify
+    "SIM",
+    # isort
+    "I",
+]
+ignore = ["F722", "F821", "E501", "E741", "E731", "UP037", "SIM108"]

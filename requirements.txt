@@ -1,0 +1,40 @@
+# Datasets
+requests~=2.32.3
+Pillow>=11.1.0
+scipy>=1.14.1
+
+# Computations
+torch>=2.6.0
+torchvision>=0.21.0
+torchmetrics>=1.6.3
+timm>=1.0.11
+numpy>=2.2.4
+pytorch-lightning>=2.5.0.post0
+lightning-utilities>=0.14.1
+lightning_fabric>=2.4.0
+lightly>=1.5.13
+scikit-learn>=1.5.2
+jaxtyping>=0.2.34
+kornia>=0.8.0
+einops>=0.8.0
+
+# Logging and parsing
+rich>=13.9.3
+simple-parsing>=0.1.6
+structlog>=24.4.0
+tqdm>=4.67.1
+wandb>=0.19.8
+pysocks>=1.7.1
+pandas>=2.2.3
+seaborn>=0.13.2
+
+# Submit scripts and others
+submitit>=1.5.2
+fvcore>=0.1.5.post20221221  # for flop_counter
+matplotlib>=3.9.2
+
+
+# Code quality
+ruff>=0.11.2
+
+typing_extensions>=4.12.2
